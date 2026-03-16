@@ -160,6 +160,14 @@ student = {
 }
 student['age'] = 23
 print(student,'\n')
+'''  Delete Value  '''
+student = {
+    'name':'Monayem',
+    'age':22,
+    'dept':'CSE'
+}
+del student["age"]
+print(student,'\n')
 
 '''  Dictionary Methods  '''
 student = {
